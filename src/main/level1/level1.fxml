@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="694.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.level1.ControllerLevelOne">
+   <children>
+      <ImageView fitHeight="705.0" fitWidth="966.0" layoutX="-3.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/hospitalroom.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="teleport" fitHeight="141.0" fitWidth="177.0" layoutX="230.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="picture" fitHeight="178.0" fitWidth="231.0" layoutX="212.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/picture.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="door" fitHeight="444.0" fitWidth="157.0" layoutX="14.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/door.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="window" fitHeight="234.0" fitWidth="347.0" layoutX="474.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/window.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="neighbor" fitHeight="146.0" fitWidth="346.0" layoutX="367.0" layoutY="358.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/neighbor.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bed" fitHeight="337.0" fitWidth="323.0" layoutX="707.0" layoutY="358.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/myBed.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nipple" fitHeight="5.0" fitWidth="5.0" layoutX="349.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/nipple.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="doorMessage" fitHeight="150.0" fitWidth="200.0" layoutX="112.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/messageDoor.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pictureMessage" fitHeight="98.0" fitWidth="227.0" layoutX="94.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/messagePicture.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="windowMessage" fitHeight="104.0" fitWidth="190.0" layoutX="505.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/messageWindow.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="neighborMessage" fitHeight="150.0" fitWidth="200.0" layoutX="440.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/messageNeighbor.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bedMessage" fitHeight="150.0" fitWidth="200.0" layoutX="626.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/messageBed.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bingo" fitHeight="89.0" fitWidth="144.0" layoutX="379.0" layoutY="578.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/messageNipple.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="preLevel" fitHeight="141.0" fitWidth="505.0" layoutX="269.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/levelOne.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

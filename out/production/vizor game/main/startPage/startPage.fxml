@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="694.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.startPage.ControllerStartPage">
+   <children>
+      <ImageView fitHeight="714.0" fitWidth="1085.0" layoutX="-4.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/backPage.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="startButton" fitHeight="93.0" fitWidth="259.0" layoutX="351.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/startGame.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="exitButton" fitHeight="94.0" fitWidth="259.0" layoutX="357.0" layoutY="439.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/endGame.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

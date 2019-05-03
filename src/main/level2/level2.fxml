@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="694.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.level2.ControllerLevelTree">
+    <children>
+        <ImageView fitHeight="714.0" fitWidth="1085.0" layoutX="-4.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/roomlevel3.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="154.0" fitWidth="179.0" layoutX="219.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/firstInterViewer.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="144.0" fitWidth="195.0" layoutX="572.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/SecondInterViewer.jpg" />
+            </image>
+        </ImageView>
+      <ImageView fx:id="test" fitHeight="342.0" fitWidth="264.0" layoutX="337.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/test.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D height="810.0" width="630.0" />
+         </viewport>
+      </ImageView>
+      <ImageView fx:id="zadanie" fitHeight="51.0" fitWidth="571.0" layoutX="323.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/задание2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nameZadanie" fitHeight="190.0" fitWidth="357.0" layoutX="315.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/пройти тесты.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="andWhat" fitHeight="150.0" fitWidth="200.0" layoutX="34.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/ну.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="oke" fitHeight="64.0" fitWidth="222.0" layoutX="88.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/дальше.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="yasno" fitHeight="150.0" fitWidth="200.0" layoutX="637.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/ясно.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pleaceEnd" fitHeight="81.0" fitWidth="283.0" layoutX="687.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/закончим.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="answer" fitHeight="41.0" fitWidth="144.0" layoutX="428.0" layoutY="558.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/answer.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="numberAnswer" layoutX="381.0" layoutY="558.0" prefHeight="40.0" prefWidth="46.0" promptText="enter" style="-fx-background-color: #ADFF2F;" />
+      <Text fx:id="hp" layoutX="879.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 100%" />
+    </children>
+</AnchorPane>

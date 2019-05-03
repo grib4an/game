@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="694.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.level3.ControllerLevel4">
+    <children>
+        <ImageView fitHeight="714.0" fitWidth="1085.0" layoutX="-4.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/backLevel3.jpg" />
+            </image>
+        </ImageView>
+        <Text fx:id="hp" fill="RED" layoutX="711.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 100%" textAlignment="CENTER" wrappingWidth="276.35546875">
+         <font>
+            <Font size="45.0" />
+         </font></Text>
+      <ImageView fx:id="fight" fitHeight="162.0" fitWidth="506.0" layoutX="287.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/fight.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firstEnemy" fitHeight="195.0" fitWidth="397.0" layoutX="43.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/enemy.png" />
+         </image>
+         <viewport>
+            <Rectangle2D height="400.0" width="140.0" />
+         </viewport>
+      </ImageView>
+      <ImageView fx:id="secondEnemy" fitHeight="195.0" fitWidth="68.0" layoutX="770.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/enemy1.png" />
+         </image>
+         <viewport>
+            <Rectangle2D height="400.0" width="140.0" />
+         </viewport>
+      </ImageView>
+      <ImageView fx:id="my" fitHeight="194.0" fitWidth="68.0" layoutX="486.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spriteMan.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D height="400.0" width="140.0" />
+         </viewport>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="216.0" layoutX="51.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/instr.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
