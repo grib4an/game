@@ -82,7 +82,7 @@ public class ControllerLevel4 {
                     try {
                         Thread.sleep(3000);
                     } catch (InterruptedException e) {
-                        System.out.println("FUCK SLEEP");
+                        System.out.println("EXEPTION in LEVEL3 method messagShow");
                     }
                     img.setVisible(false);
                 }
